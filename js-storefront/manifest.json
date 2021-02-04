@@ -2,7 +2,11 @@
     "applications": [
         {
             "name": "spartacusstore",
-            "path": "spartacusstore"
+            "path": "spartacusstore",
+            "ssr": {
+                "enabled": true,
+                "path": "dist/spartacusstore/spartacusstore-server/main.js"
+            }
         }
     ],
         "nodeVersion": "12"
