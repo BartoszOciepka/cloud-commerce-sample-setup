@@ -11,7 +11,7 @@ import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacu
   providers: [provideConfig(layoutConfig), provideConfig(mediaConfig), ...defaultCmsContentProviders, provideConfig(<OccConfig>{
     backend: {
       occ: {
-        baseUrl: 'https://localhost:9002',
+        baseUrl: 'https://api.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com/',
       }
     },
   }), provideConfig(<SiteContextConfig>{
@@ -27,7 +27,7 @@ import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacu
     },
   }), provideConfig(<FeaturesConfig>{
     features: {
-      level: '2211.19'
+      level: '2211.21'
     }
   }), provideConfig(defaultB2bOccConfig)]
 })
